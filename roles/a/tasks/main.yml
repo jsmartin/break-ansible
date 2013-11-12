@@ -1,0 +1,4 @@
+- name: test role a echo
+  command: echo "role a"
+  notify:
+    myhandler
